@@ -33,11 +33,34 @@ git config --global --list
 
 ## Git & GitHub
 
+- 버전 변경 여부, 변경점 등록, 변경내역추가, 기록을 확인합니다.
 ```
 git status
 git add .
 git commit -m '변경 사항'
 git log
+```
+
+- 이전 버전으로 되돌리기
+```
+$ git reset --hard HEAD~1
+```
+
+- 이전 버전으로 되돌리기를 취소
+```
+$ git reset --hard ORIG_HEAD
+```
+
+- 깃허브에 업로드
+```
 git remote add origin 'url'
 git push origin master
+```
+
+- 깃 브랜치 설정
+```
+git branch
+git branch -a
+git branch '브랜치 버전 이름'
+git checkout '브랜치 버전 이름'
 ```
