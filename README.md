@@ -63,4 +63,5 @@ git branch
 git branch -a
 git branch '브랜치 버전 이름'
 git checkout '브랜치 버전 이름'
+git -d '브랜치 버전 이름'
 ```
