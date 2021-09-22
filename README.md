@@ -18,7 +18,7 @@ git init
   ```
   git config --global core.autocrlf input
   ```
-_Windows 에선 line ending 처리를 CR(Carriage-Return, '\r')과 LF(Line Feed, \n)을 사용하고 Unix 나 Mac OS 는 LF 만 사용하기 때문이다._ 
+  _Windows 에선 line ending 처리를 CR(Carriage-Return, '\r')과 LF(Line Feed, \n)을 사용하고 Unix 나 Mac OS 는 LF 만 사용하기 때문이다._ 
 
 - 해당 버전 관리 사용자를 설정합니다. (추후 변경 가능)
 ```
