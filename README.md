@@ -1,4 +1,4 @@
-# git-101
+# Git-101
 
 깃 사용에 대한 내용 정리입니다.
 
@@ -11,13 +11,13 @@ git init
 ```
 - OS별 개행 문자 설정
   - 윈도우 설정  
-```
-git config --global core.autocrlf true
-```
+  ```
+  git config --global core.autocrlf true
+  ```
   - 맥OS 설정
-```
-git config --global core.autocrlf input
-```
+  ```
+  git config --global core.autocrlf input
+  ```
 - 사용자 설정
 ```
 git config --global user.name '이름'
